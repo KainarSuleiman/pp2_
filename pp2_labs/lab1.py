@@ -84,12 +84,12 @@ print(n, type(n))
 print(n_str, type(n_str))
 
 # 8. Strings
-s = "   Hello, World!   "
+s = "Hello, World!"
 
 print("Length:", len(s))
 print("First char:", s[0])
 print("Last char:", s[-1])
-print("Substring:", s[7:12])
+print("Substring:", s[3:6])
 print("Upper:", s.upper())
 print("Lower:", s.lower())
 print("Strip:", s.strip())
