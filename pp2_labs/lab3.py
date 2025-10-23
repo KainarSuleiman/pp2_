@@ -266,6 +266,36 @@
 #     cat_movies = [m["imdb"] for m in movies if m["category"] == category]
 #     return sum(cat_movies) / len(cat_movies)
 #
-#
-#
 
+
+#
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+#         self.grades = []
+#
+#
+#     def add_grade(self, grade)
+#         self.grades.append(grade)
+
+#
+# def is_evod(n):
+#     if n % 2 == 0:
+#         return "It is Even"
+#     else:
+#         return "It is Odd"
+#
+# n= int(input("Enter a number: "))
+#
+# print(is_evod(n))
+
+
+
+
+def even_numbers(n):
+    for i in range(n + 1):
+        if i % 2 == 0:
+            yield i
+
+n = 10
+print(",".join(str(num) for num in even_numbers(n)))
