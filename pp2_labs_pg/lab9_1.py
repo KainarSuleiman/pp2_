@@ -24,10 +24,10 @@ BLACK = (0, 0, 0)
 RED   = (255, 0, 0)
 
 # Пути к ресурсам
-BG_IMAGE_PATH     = "AnimatedStreet.png"
-PLAYER_IMAGE_PATH = "Player.png"
-ENEMY_IMAGE_PATH  = "Enemy.png"
-COIN_IMAGE_PATH   = "Coin.png"
+BG_IMAGE_PATH     = "../pp2_labs_pg/AnimatedStreet.png"
+PLAYER_IMAGE_PATH = "../pp2_labs_pg/Player.png"
+ENEMY_IMAGE_PATH  = "../pp2_labs_pg/Enemy.png"
+COIN_IMAGE_PATH   = "../pp2_labs_pg/Coin.png"
 CRASH_SOUND_PATH  = "crash.wav"
 COIN_SOUND_PATH   = "coin.wav"
 
